@@ -53,7 +53,7 @@ class Config:
     SOFT_JOB_TIMEOUT = 60 * 60 * 3
     """Runtime after which we shouldn't start a new build"""
 
-    MAXIMUM_JOB_COUNT = 15
+    MAXIMUM_JOB_COUNT = 1
     """Maximum number of jobs to spawn"""
 
     MANUAL_BUILD: List[Tuple[str, List[BuildType]]] = [
