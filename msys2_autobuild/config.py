@@ -34,7 +34,7 @@ class Config:
     MINGW_SRC_ARCH: ArchType = "ucrt64"
     """The arch that is used to build the source package (any mingw one should work)"""
 
-    MAIN_REPO = "msys2/msys2-autobuild"
+    MAIN_REPO = "msys2-arm/msys2-autobuild"
     """The path of this repo (used for accessing the assets)"""
 
     ASSETS_REPO: Dict[BuildType, str] = {
