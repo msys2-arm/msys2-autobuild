@@ -68,7 +68,7 @@ class Config:
     MAXIMUM_BUILD_TYPE_JOB_COUNT: Dict[BuildType, int] = {
         "msys-src": 1,
         "mingw-src": 1,
-        "clangarm64": 1,
+        "clangarm64": 2,
     }
     """Maximum jobs for each build type. Default is no limit."""
 
